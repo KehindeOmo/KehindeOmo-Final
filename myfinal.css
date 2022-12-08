@@ -1,11 +1,13 @@
-
 body {
   background-color: pink;
 }
 h1 {
-  color: pink;
+  color: white;
   margin-left:10px;
   text-decoration: underline;
+}
+h2 {
+  color: white;
 }
 table,th,td {
   border: 2px solid black;
