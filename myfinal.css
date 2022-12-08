@@ -7,3 +7,10 @@ h1 {
   margin-left:10px;
   text-decoration: underline;
 }
+table,th,td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  
+th,td {
+  border-style:ridge;
+  }
