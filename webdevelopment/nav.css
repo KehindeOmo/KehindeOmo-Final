@@ -1,0 +1,39 @@
+nav{
+    margin:0;
+    padding:15px 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    display: flex;
+    right:0;
+}
+nav a{
+    color: #777;
+    text-decoration: none;
+    padding:20px;
+}
+nav a:hover {
+background-color:#Fb6ddc;
+color: white;
+border: 2px solid pink
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    padding:0;
+    justify-content: flex-end;
+}
+nav li{
+    margin: 0 10px;
+    float: right;
+}
+.klogo{
+    width: 60px;
+    height: auto;
+    float:inline-start;
+    justify-content: flex-start;
+    top:0;
+    left:0;
+
+}
