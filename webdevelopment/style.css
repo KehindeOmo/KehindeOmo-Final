@@ -1,3 +1,71 @@
+.pinkL{
+    height:6px;
+    background-color: #FF99CC ;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
 h1{
     color:#FF99CC
+}
+
+#resume{
+    background-color: rgb(185, 185, 185);
+    border: 2px solid #Fb6ddc;
+}
+
+main{
+    padding: 30px;
+}
+.bodyStuff{
+    padding-left: 70px;
+    padding-right: 150px;
+    display: flex;
+}
+.indexPara{
+    font-size: large;
+}
+.linkedIn img{
+    width: 200px;
+    height: auto;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+.miniClicks{
+    display: flex;
+    align-items: center;
+    
+}
+.kEmoji{
+    filter: drop-shadow(20px 20px 4px rgba(0, 0, 0, 0.3));
+    margin-left: 80px;
+}
+.toggleMode{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+
+}
+.emptySpan{
+    background-color: #FF99CC;
+    width:50px;
+    height: 100px;
+    
+}
+footer{
+    background-color:#FF99CC;
+    width: 100%;
+    bottom:0;
+    left:0;
+    position: fixed;
+    z-index: -1000;
+    height:40px;
+}
+footer p{
+    margin: 9px;
+    text-align: center;
+    color: white
 }
