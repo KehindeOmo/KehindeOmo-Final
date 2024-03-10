@@ -69,3 +69,25 @@ footer p{
     text-align: center;
     color: white
 }
+
+#myRef{
+    width: 500px;
+    height: 250px;
+
+}
+#reflectMain{
+    display: flex;
+}
+#headerReflect{
+    color: #Fb6ddc;
+}
+#paraR:first-of-type:first-letter{
+    font-size:xx-large;
+}
+#paraR p + p{
+    text-indent: 1.5em;
+}
+#paraR {
+    border: none;
+
+}
