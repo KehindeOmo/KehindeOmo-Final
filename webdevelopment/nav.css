@@ -59,3 +59,9 @@ nav ul li{
 .nM:hover .navMenu{
     display: block;
 }
+
+@media only screen and (max-width: 845px){
+navMenu{
+    display: none;
+}
+}

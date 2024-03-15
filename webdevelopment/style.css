@@ -9,14 +9,34 @@
 h1{
     color:#FF99CC
 }
-
+#resumeYes{
+    text-align: center;
+    
+}
 #resume{
-    background-color: rgb(185, 185, 185);
+    background-color: #FF99CC;
     border: 2px solid #Fb6ddc;
+    text-decoration: none;
+    padding: 1em 3em;
+    color: white;
+    font-size: larger;
+    font-weight: 500;    
+    font-family: cursive;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.3));
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+    width: fit-content;
+}
+#resume:hover{
+    background-color: gray;
+}
+#resume:active{
+    background-color: black;
 }
 
 main{
-    padding: 30px;
+   padding:0 30px
 }
 .bodyStuff{
     padding-left: 70px;
@@ -31,6 +51,7 @@ main{
     height: auto;
     margin-right: 50px;
     margin-left: 80px;
+    
 }
 .miniClicks{
     display: flex;
@@ -91,3 +112,81 @@ footer p{
     border: none;
 
 }
+#aboutSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+#examplePics {
+width: 300px;
+margin-right: 40px;
+}
+#textAbout{
+    display: block;
+    
+}
+
+@media only screen and (max-width: 845px){
+    .bodyStuff {
+        padding-left: 20px;
+        padding-right: 20px;
+       display: block;
+         }
+     
+     .linkedIn img {
+         width: 150px;
+         height: auto;
+         margin-right: 20px;
+         margin-left: 20px;
+         }
+     
+         .miniClicks {
+         display: block;
+         align-items: center;
+         text-align: center;
+         }
+     
+         .kEmoji {
+         margin-left: 20px;
+         }
+     
+         .toggleMode {
+         width: 150px;
+         height: 150px;
+         }
+     
+         .emptySpan {
+         display: none;
+         }
+     
+         footer {
+         z-index: unset;
+         padding: 0;
+         }
+     
+         #myRef {
+         width: 300px;
+         height: auto;
+         }
+     
+         #aboutSec {
+         padding: 0 20px;
+         }
+     
+         #examplePics {
+          width: 200px;
+         }
+     
+         #textAbout {
+         display: block;
+         }
+         body{
+            overflow-y: auto;
+         }
+         #myRef{
+            width: 300px;
+            height: 150px;
+        
+        }
+    }
