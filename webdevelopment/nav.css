@@ -61,7 +61,7 @@ nav ul li{
 }
 
 @media only screen and (max-width: 845px){
-navMenu{
+#navMenus{
     display: none;
 }
 }
