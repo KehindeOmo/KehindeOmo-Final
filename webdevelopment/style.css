@@ -62,13 +62,36 @@ main{
     filter: drop-shadow(20px 20px 4px rgba(0, 0, 0, 0.3));
     margin-left: 80px;
 }
+.customName{
+    font-family: "Titan One",sans-serif;
+    color: #Fb6ddc;
+    white-space: nowrap;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
 .toggleMode{
     width: 200px;
     height: 200px;
     border-radius: 12px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
+    background-color: #FF99CC;
+    color: white;
 
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+ }
+.OkieDokie{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+    font-family:monospace;
+    filter: none;
 }
 .emptySpan{
     background-color: #FF99CC;
@@ -82,15 +105,53 @@ footer{
     bottom:0;
     left:0;
     position: fixed;
-    z-index: -1000;
-    height:40px;
+    height:90px;
+    background-image:url("footerBack.png") ;
+    background-size: cover;
+    background-position: center;
+}
+.miniFooter{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miniFooter img{
+    transition: transform 0.3s ease;
+    transform: scale(1);
+
+}
+.miniFooter img:hover{
+    transform: scale(1.5);
+}
+.miniFooter a, .miniFooter p{
+    text-decoration:underline;
+    color:white;
+    margin:0;
+}
+#iconInfo{
+    color:black;
+    text-align: center;
+    margin-top: 0px;
+    
+    
+}
+#iconInfo a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
 }
 footer p{
-    margin: 9px;
+    margin-top: 0px;
     text-align: center;
-    color: white
+    color: white;
+    font-weight: bold;
 }
+footer img{
+    padding:0 15px;
 
+}
 #myRef{
     width: 500px;
     height: 250px;
@@ -155,6 +216,7 @@ margin-right: 40px;
          width: 150px;
          height: 150px;
          }
+         
      
          .emptySpan {
          display: none;
@@ -188,5 +250,24 @@ margin-right: 40px;
             width: 300px;
             height: 150px;
         
+        }
+    }
+
+    @media print{
+        body,
+        h1,
+        p,
+        ul,
+        ol,
+        blockquote,
+        footer{
+            color:black;
+            font-family: serif;
+        }
+        h1{
+            font-family: "Titan One", sans-serif;
+        }
+        body{
+            margin: 1in;
         }
     }
