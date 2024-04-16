@@ -185,7 +185,12 @@ margin-right: 40px;
 }
 #textAbout{
     display: block;
-    
+}
+form{
+    display: flex;
+}
+input{
+    width: 45%;
 }
 
 @media only screen and (max-width: 845px){
