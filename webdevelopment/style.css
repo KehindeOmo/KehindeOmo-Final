@@ -192,8 +192,45 @@ form{
 input{
     width: 45%;
 }
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+    
+}
+.yesTable{
+    height: 50px;
+    display: block;
+}
+form{
+    padding:50px 0 0 0 ;
+}
+tbody tr:nth-child(odd) {
+    background-color: #Fb6ddc;
+    color: white;
+}
+caption{
+    text-align: center;
+}
 
+/* First and last row coloring */
+tbody tr:first-child, tbody tr:last-child {
+    background-color: #Fb6ddc;
+}
 @media only screen and (max-width: 845px){
+    table{
+        border: 0;
+    }
+    th, td{
+        border: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
     .bodyStuff {
         padding-left: 20px;
         padding-right: 20px;
