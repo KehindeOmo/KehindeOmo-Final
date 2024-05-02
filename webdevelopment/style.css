@@ -208,6 +208,7 @@ th, td{
 }
 form{
     padding:50px 0 0 0 ;
+    display: block;
 }
 tbody tr:nth-child(odd) {
     background-color: #Fb6ddc;
@@ -216,11 +217,55 @@ tbody tr:nth-child(odd) {
 caption{
     text-align: center;
 }
+textarea{
+    height: 100px;
+}
 
 /* First and last row coloring */
 tbody tr:first-child, tbody tr:last-child {
     background-color: #Fb6ddc;
 }
+.orgImages{
+    width: 120px;
+    padding: 10px 0;
+    display: block;
+    
+}
+.learnBody{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+.org1{
+    display: flex;
+    align-items: flex-start;
+}
+.org2{
+    display: flex;
+    align-items: flex-start;
+}
+.org3{
+    display: flex;
+    align-items: flex-start;
+}
+.miniHeader{
+    display: flex;
+}
+.allOrgs span{
+    padding: 0px 0px 0px 40px;
+    margin: 0px 20px 0px 0px;
+    display:block;
+}
+
+.allOrgs{
+    display: block;
+    text-align: left;
+}
+.miniReflection{
+    width: 430px;
+    
+}
+
 @media only screen and (max-width: 845px){
     table{
         border: 0;
