@@ -69,6 +69,7 @@ main{
     display: inline;
     margin: 0;
     padding: 0;
+    font-size: x-large;
 }
 .toggleMode{
     width: 200px;
@@ -188,15 +189,19 @@ margin-right: 40px;
 }
 form{
     display: flex;
+    width: 150%;
 }
 input{
     width: 45%;
 }
 table{
-    width: 100%;
+    width: 150%;
+    height: 200%;
     border-collapse: collapse;
     border: 1px solid;
+
 }
+
 th, td{
     padding: 10px;
     text-align: center;
@@ -264,6 +269,10 @@ tbody tr:first-child, tbody tr:last-child {
 .miniReflection{
     width: 430px;
     
+}
+#nextTo{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 845px){
