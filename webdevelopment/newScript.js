@@ -25,3 +25,15 @@ function darkMode(){
     var body = document.body;
     body.classList.toggle("dark-mode");
 }
+
+function incrementVisitorCount() {
+    if (localStorage.getItem('visitorCount')) {
+        let count = parseInt(localStorage.getItem('visitorCount'));
+        count++;
+        localStorage.setItem('visitorCount', count);
+    } else {
+        localStorage.setItem('visitorCount', 1);
+    }
+    document.getElementById('visitorCount').textContent = localStorage.getItem('visitorCount');
+}
+window.onload = incrementVisitorCount;
